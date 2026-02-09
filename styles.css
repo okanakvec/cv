@@ -340,6 +340,50 @@ body {
     font-size: 0.95rem;
 }
 
+/* Thesis card inside education item */
+.thesis {
+    margin-top: 0.8rem;
+    padding: 1rem;
+    background: linear-gradient(180deg, rgba(250,250,250,0.96), var(--card-bg));
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+    box-shadow: 0 8px 24px rgba(15,23,42,0.04);
+}
+
+.thesis h4 {
+    margin: 0 0 0.35rem 0;
+    font-size: 1.05rem;
+    color: var(--text-dark);
+}
+
+.thesis-summary {
+    margin: 0 0 0.6rem 0;
+    color: var(--text-light);
+    line-height: 1.5;
+}
+
+.thesis-subhead {
+    margin: 0.3rem 0 0.4rem 0;
+    font-size: 0.95rem;
+    color: var(--text-dark);
+}
+
+.thesis-list {
+    margin: 0 0 0.6rem 0;
+    padding-left: 1rem;
+    color: var(--text-light);
+}
+
+.thesis-list li {
+    margin-bottom: 0.45rem;
+}
+
+.thesis-note {
+    margin: 0.4rem 0 0 0;
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+
 /* Skills Section */
 .skills-grid {
     display: flex;
